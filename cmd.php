@@ -1,6 +1,3 @@
-Arrumar a parte dos usuários editar quando buscar a macro buscar somente os
-hospais daquela macro.
-
 
 php artisan migrate:reset
 
@@ -17,6 +14,9 @@ php artisan make:model nome da Model -m
 
 
 Criar um Controller
+
+-- resource Significa -- todos os verbos no controle 
+
 php artisan make:controller PostController --resource
 php artisan make:controller ManualController --resource
 
